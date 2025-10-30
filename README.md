@@ -1,4 +1,4 @@
-### 1. FCFS CPU Scheduling (with Arrival Times)
+### 4. FCFS CPU Scheduling
 
 ```python
 n = int(input("No. of processes: "))
@@ -22,7 +22,7 @@ for i in range(n):
 print("\nAvg WT:", sum(wt)/n, " Avg TAT:", sum(tat)/n)
 ```
 
-### 2. SJF CPU Scheduling (Non-Preemptive)
+### 5. SJF CPU Scheduling (Non-Preemptive)
 
 ```python
 n = int(input("No. of processes: "))
@@ -52,7 +52,7 @@ for i in range(n):
 print("\nAvg WT:", sum(wt)/n, " Avg TAT:", sum(tat)/n)
 ```
 
-### 3. Priority CPU Scheduling (Non-Preemptive)
+### 6. Priority CPU Scheduling (Non-Preemptive)
 
 ```python
 n = int(input("No. of processes: "))
@@ -83,7 +83,7 @@ for i in range(n):
 print("\nAvg WT:", sum(wt)/n, " Avg TAT:", sum(tat)/n)
 ```
 
-### 4. Round Robin CPU Scheduling
+### 7. Round Robin CPU Scheduling
 
 ```python
 n = int(input("No. of processes: "))
@@ -118,7 +118,7 @@ for i in range(n):
 print("\nAvg WT:", sum(wt)/n, " Avg TAT:", sum(tat)/n)
 ```
 
-### 5. FIFO Page Replacement
+### 10. FIFO Page Replacement
 
 ```python
 n = int(input("Enter number of frames: "))
@@ -148,7 +148,7 @@ print("Total Page Hits:", hits)
 print("Hit Ratio: {:.2f}".format(hit_ratio))
 ```
 
-### 6. LRU Page Replacement
+### 11. LRU Page Replacement
 
 ```python
 n = int(input("Enter number of frames: "))
@@ -182,7 +182,7 @@ print("Total Page Hits:", hits)
 print("Hit Ratio: {:.2f}".format(hit_ratio))
 ```
 
-### 7. Sequential File Allocation
+### 12. Sequential File Allocation
 
 ```python
 n = int(input("Enter total number of blocks: "))
